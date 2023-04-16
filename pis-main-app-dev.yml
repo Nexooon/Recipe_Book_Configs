@@ -44,7 +44,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 #    instance:
 #      preferIpAddress: true
-    healthcheck:
-      enabled: true
+#     healthcheck:
+#       enabled: true
     region: eu-central-1
 
