@@ -16,8 +16,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: true
-  application:
-    name: eurekaclient
 
   mail:
     host: localhost
