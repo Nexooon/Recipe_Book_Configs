@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    password: postgres
+    password: trudne!haslo
     url: jdbc:postgresql://db:5432/postgres
     username: postgres
   jpa:
