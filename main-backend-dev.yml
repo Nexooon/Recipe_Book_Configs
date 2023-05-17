@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    password: trudne!haslo
+    password: 'trudne!haslo'
     url: jdbc:postgresql://db:5432/recipe_book
-    username: postgres
+    username: 'postgres'
   jpa:
     hibernate:
       ddl-auto: create-drop
