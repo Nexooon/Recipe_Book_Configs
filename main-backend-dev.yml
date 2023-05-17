@@ -6,7 +6,7 @@ server:
 spring:
   datasource:
     password: 'trudne!haslo'
-    url: jdbc:postgresql://db:5432/recipe_book
+    url: jdbc:postgresql://localhost:5432/recipe_book
     username: 'postgres'
   jpa:
     hibernate:
