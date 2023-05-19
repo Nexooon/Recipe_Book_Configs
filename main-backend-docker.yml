@@ -1,3 +1,14 @@
 spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/backend
+
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka
+#    instance:
+#      preferIpAddress: true
+#     healthcheck:
+#       enabled: true
+    region: eu-central-1
